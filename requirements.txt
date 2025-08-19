@@ -1,0 +1,10 @@
+python-dotenv
+langchain
+langchain-community
+langchain-huggingface
+sentence-transformers
+faiss-cpu
+chromadb
+transformers
+torch
+numpy
