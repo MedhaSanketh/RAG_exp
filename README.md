@@ -1,4 +1,4 @@
-# Rainforest QA 🌳
+# RAG experiments 🌳
 
 A mini RAG (Retrieval-Augmented Generation) project where a PDF about **rainforests** is converted into vector embeddings, stored in FAISS/Chroma, and queried via a local LLM.
 
@@ -11,8 +11,8 @@ A mini RAG (Retrieval-Augmented Generation) project where a PDF about **rainfore
 
 ## Quickstart
 ```bash
-git clone https://github.com/YOUR_USERNAME/rainforest-qa.git
-cd rainforest-qa
+git clone https://github.com/MedhaSanketh/RAG_exp.git
+cd RAG
 pip install -r requirements.txt
 cp .env.example .env
-python src/qa_simple.py
+python src/mini_rag.py
